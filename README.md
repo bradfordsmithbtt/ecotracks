@@ -59,4 +59,67 @@ By combining **machine learning**, **real-time data visualization**, and **perso
 Clone the repository:  
 ```bash
 git clone https://github.com/username/ecotrack.git
+
+## Usage
+1. Create an account.
+2. Log daily activities.
+3. Review your carbon dashboard.
+4. Follow personalized tips and adjust goals.
+
+---
+
+## Example Output
+**Weekly Carbon Dashboard**
+
+| Activity        | CO2 Emissions (kg) |
+|-----------------|--------------------|
+| Transportation  | 14.2               |
+| Energy Usage    | 8.6                |
+| Diet            | 5.3                |
+| **Total**       | **28.1**           |
+
+> “Switching two short car rides to biking this week could reduce your footprint by 9%.”
+
+---
+
+## Project Structure
+```bash
+ecotrack/
+├── app.py                    # Flask backend entrypoint
+├── requirements.txt          # Python dependencies
+├── client/                   # React frontend
+│   ├── src/
+│   └── package.json
+├── models/                   # Serialized ML models
+├── migrations/               # DB migrations
+├── docs/                     # Supplemental documentation
+├── .env.example              # Environment variable template
+├── README.md
+├── CONTRIBUTING.md
+└── CODE_OF_CONDUCT.md
+
+
 cd ecotrack
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. All contributions are welcome. Start with issues labeled **good first issue**.
+
+---
+
+## Roadmap
+- Mobile app wrapper  
+- IoT-enabled automatic activity detection  
+- Social sharing and eco-challenges  
+- Gamified badges for milestones  
+
+---
+
+## License
+This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
+
+---
+
+## Contributors
+- **Aisha Rahman** – Backend & ML  
+- **Miguel Hernandez** – Frontend & Design  
+- **Priya Kapoor** – API Integration & Data Visualization  
