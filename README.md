@@ -57,7 +57,7 @@ By combining **machine learning**, **real-time data visualization**, and **perso
 ## **Installation**
 
 Clone the repository:  
-```bash
+
 git clone https://github.com/username/ecotrack.git
 
 ## Usage
@@ -81,25 +81,6 @@ git clone https://github.com/username/ecotrack.git
 > “Switching two short car rides to biking this week could reduce your footprint by 9%.”
 
 ---
-
-## Project Structure
-```bash
-ecotrack/
-├── app.py                    # Flask backend entrypoint
-├── requirements.txt          # Python dependencies
-├── client/                   # React frontend
-│   ├── src/
-│   └── package.json
-├── models/                   # Serialized ML models
-├── migrations/               # DB migrations
-├── docs/                     # Supplemental documentation
-├── .env.example              # Environment variable template
-├── README.md
-├── CONTRIBUTING.md
-└── CODE_OF_CONDUCT.md
-
-
-cd ecotrack
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. All contributions are welcome. Start with issues labeled **good first issue**.
