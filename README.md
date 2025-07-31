@@ -14,7 +14,6 @@ By combining **machine learning**, **real-time data visualization**, and **perso
 5. [Installation](#installation)  
 6. [Usage](#usage)  
 7. [Example Output](#example-output)  
-8. [Future Improvements](#future-improvements)  
 9. [Contributors](#contributors)
 
 ---
